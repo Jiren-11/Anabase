@@ -1,0 +1,142 @@
+a.btn {
+  background-color: red;
+  color: white;
+  padding: 1em 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.btn:hover {
+  background-color: #555;
+}
+
+a.btn:active {
+  background-color: black;
+}
+
+a.btn:visited {
+  background-color: #ccc;
+}
+
+.centre {
+
+  position: absolute;
+  top: 25%;
+  right: 39%;
+  width: 300px;
+  margin: auto;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
+.centreElement {
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.zoneText {
+  margin: 5px;
+  width: 200px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: 2800FF;
+  font-family: sans-serif;
+
+}
+
+ul {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px #333;
+  margin: 0;
+  padding: 0px;
+
+}
+
+ul li {
+  list-style: none;
+  width: 150px;
+}
+
+
+
+ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: fantasy;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+body {
+  background-image: url("../media/abstract-luxury-blur-dark-grey-and-black-gradient-used-as-background-studio-wall-for-display-your-products-plain-studio-background.jpg");
+  background-size: 100%;
+}
+
+#update {
+  background-color: #0070FF;
+}
+
+
+.container_congressiste {
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.container_session {
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.form_inscription {
+  position: absolute;
+  top: 25%;
+  right: 65%;
+  width: 300px;
+  margin: auto;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
+.form_session {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  width: 300px;
+  margin: auto;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
+.modif{
+
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h2{
+  padding-top: 15px;
+  text-align: center;
+}
+
+.erreur{
+  top: 700px;
+}
